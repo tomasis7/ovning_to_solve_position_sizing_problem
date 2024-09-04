@@ -17,6 +17,10 @@
         height: 70px;
         border: 1px solid #a6f932;
       }
+      div.main {
+        display: flex;
+        flex-direction: row;
+      }
       div.left {
         box-sizing: content-box;
         align-self: auto;
@@ -39,8 +43,12 @@
   </head>
   <body>
     <div class="top">This div element has position: relative;</div>
-    <div class="left">This div element has position: relative;</div>
-    <div class="right">This div element has position: relative;</div>
+
+    <div class="main">
+      <div class="left">This div element has position: relative;</div>
+      <div class="right">This div element has position: relative;</div>
+    </div>
+
     <div class="bottom">This div element has position: relative;</div>
   </body>
 </html>
