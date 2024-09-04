@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        box-sizing: content-box;
+        display: flex relative;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+      }
+      div.top {
+        box-sizing: content-box;
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height 70px;
+        border: 1px solid #a6f932;
+      }
+      div.left {
+        box-sizing: content-box;
+
+        position: absolute;
+        top: 71px;
+        left: 0px;
+        border: 1px solid #142d45;
+        width: 50%;
+      }
+      div.right {
+        box-sizing: content-box;
+
+        position: absolute;
+        top: 71px;
+        right: 0px;
+        border: 1px solid #0fa414;
+        width: 50%;
+      }
+      div.bottom {
+        position: absolute;
+        bottom: 0px;
+        border: 1px solid #ad4b21;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">This div element has position: relative;</div>
+    <div class="left">This div element has position: relative;</div>
+    <div class="right">This div element has position: relative;</div>
+    <div class="bottom">This div element has position: relative;</div>
+  </body>
+</html>
